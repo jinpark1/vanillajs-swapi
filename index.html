@@ -5,39 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>VanillaJS SWAPI</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <header>
-    <h1>VanillaJS SWAPI</h1>
-  </header>
-  <main>
-    <div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div><div class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, ipsa. Qui, provident, quas neque pariatur consectetur itaque quidem repellendus laborum ab possimus maiores veritatis, obcaecati natus a quisquam mollitia doloremque!</div>
-  </main>
-  
-    <style>
-    header {
-      background: peachpuff;
-      padding: 30px;
-      position: sticky;
-      top: 0px;
-      transition: all 1s;
-    }
-
-    .lorem {
-      font-size: 32px;
-    }
-  </style>
-  <script type="text/javascript">
-    window.addEventListener('scroll', function() {
-      const top = window.scrollY;
-      const main = document.querySelector('main')
-      const header = document.querySelector('header')
-      if (top > main.offsetTop + 200) {
-        header.style.opacity = 0;
-      } else {
-        header.style.opacity = 1;
-      }
-    })
-  </script>
+  <div id="root"></div>
+  <script src="index.js"></script>
 </body>
 </html>
